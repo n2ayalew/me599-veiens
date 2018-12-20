@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue Dec 11 22:40:51 2018 by SUMO duarouter Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml"/>
+        <route-files value="osm.passenger.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.passenger.rou.xml"/>
+        <alternatives-output value="osm.passenger.rou.alt.xml"/>
+    </output>
+
+    <processing>
+        <ignore-errors value="true"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="passenger" speedFactor="normc(1.00,0.10,0.20,2.00)" vClass="passenger"/>
+    <vehicle id="veh0" type="passenger" depart="0.00" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 145886211#0 -145886211#0"/>
+    </vehicle>
+    <vehicle id="veh1" type="passenger" depart="27.98" departLane="best">
+        <route edges="193817182 193817181#0 193817181#1 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh2" type="passenger" depart="55.96" departLane="best">
+        <route edges="-41169445#3 -41169445#1 -41169445#0 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh3" type="passenger" depart="83.95" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh4" type="passenger" depart="111.93" departLane="best">
+        <route edges="-176086983#4 176086983#4 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh5" type="passenger" depart="139.91" departLane="best">
+        <route edges="-41169445#1 -41169445#0 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh6" type="passenger" depart="167.89" departLane="best">
+        <route edges="-145886211#5 -145886211#0 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh7" type="passenger" depart="195.88" departLane="best">
+        <route edges="193817182 193817181#0 193817181#1 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh8" type="passenger" depart="223.86" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 41169445#0 41169445#1 41169445#2"/>
+    </vehicle>
+    <vehicle id="veh9" type="passenger" depart="251.84" departLane="best">
+        <route edges="-41169445#3 -41169445#1 -41169445#0 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh10" type="passenger" depart="279.82" departLane="best">
+        <route edges="193817182 193817181#0 193817181#1 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh11" type="passenger" depart="307.80" departLane="best">
+        <route edges="193817182 193817181#0 193817181#1 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh12" type="passenger" depart="335.79" departLane="best">
+        <route edges="176086983#3 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh13" type="passenger" depart="363.77" departLane="best">
+        <route edges="-145886211#5 -145886211#0 -176086983#4"/>
+    </vehicle>
+    <vehicle id="veh14" type="passenger" depart="391.75" departLane="best">
+        <route edges="-145886211#5 -145886211#0 -193817181#1"/>
+    </vehicle>
+    <vehicle id="veh15" type="passenger" depart="419.73" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 -193817181#1 -193817181#0 -193817182"/>
+    </vehicle>
+    <vehicle id="veh16" type="passenger" depart="447.72" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh17" type="passenger" depart="475.70" departLane="best">
+        <route edges="-145886211#5 -145886211#0 -176086983#4 176086983#4"/>
+    </vehicle>
+    <vehicle id="veh18" type="passenger" depart="503.68" departLane="best">
+        <route edges="-145886211#5 -145886211#0 -193817181#1 -193817181#0 -193817182"/>
+    </vehicle>
+    <vehicle id="veh19" type="passenger" depart="531.66" departLane="best">
+        <route edges="41169445#1 -41169445#1 -41169445#0 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh20" type="passenger" depart="559.64" departLane="best">
+        <route edges="176086983#0 176086983#3"/>
+    </vehicle>
+    <vehicle id="veh21" type="passenger" depart="587.63" departLane="best">
+        <route edges="-176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh22" type="passenger" depart="615.61" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 -193817181#1 -193817181#0 -193817182"/>
+    </vehicle>
+    <vehicle id="veh23" type="passenger" depart="643.59" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 -193817181#1 -193817181#0"/>
+    </vehicle>
+    <vehicle id="veh24" type="passenger" depart="671.57" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 41169445#0 41169445#1 41169445#2"/>
+    </vehicle>
+    <vehicle id="veh25" type="passenger" depart="699.56" departLane="best">
+        <route edges="-145886211#5 -145886211#0 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh26" type="passenger" depart="727.54" departLane="best">
+        <route edges="-145886211#5 -145886211#0 -193817181#1 -193817181#0 -193817182"/>
+    </vehicle>
+    <vehicle id="veh27" type="passenger" depart="755.52" departLane="best">
+        <route edges="176086983#3 176086983#4 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh28" type="passenger" depart="783.50" departLane="best">
+        <route edges="-193817181#1 193817181#1 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh29" type="passenger" depart="811.49" departLane="best">
+        <route edges="-145886211#5 -145886211#0 -193817181#1 -193817181#0 -193817182"/>
+    </vehicle>
+    <vehicle id="veh30" type="passenger" depart="839.47" departLane="best">
+        <route edges="-41169445#0 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh31" type="passenger" depart="867.45" departLane="best">
+        <route edges="193817181#0 193817181#1 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh32" type="passenger" depart="895.43" departLane="best">
+        <route edges="193817181#1 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh33" type="passenger" depart="923.41" departLane="best">
+        <route edges="-41169445#0 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh34" type="passenger" depart="951.40" departLane="best">
+        <route edges="-145886211#5 -145886211#0 41169445#0 41169445#1 -41169445#1"/>
+    </vehicle>
+    <vehicle id="veh35" type="passenger" depart="979.38" departLane="best">
+        <route edges="-145886211#5 -145886211#0 -193817181#1 -193817181#0 193817181#0"/>
+    </vehicle>
+    <vehicle id="veh36" type="passenger" depart="1007.36" departLane="best">
+        <route edges="193817181#1 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh37" type="passenger" depart="1035.34" departLane="best">
+        <route edges="-41169445#3 -41169445#1 -41169445#0 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh38" type="passenger" depart="1063.33" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4"/>
+    </vehicle>
+    <vehicle id="veh39" type="passenger" depart="1091.31" departLane="best">
+        <route edges="41169445#1 -41169445#1 -41169445#0 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh40" type="passenger" depart="1119.29" departLane="best">
+        <route edges="-145886211#5 -145886211#0 -176086983#4"/>
+    </vehicle>
+    <vehicle id="veh41" type="passenger" depart="1147.27" departLane="best">
+        <route edges="-41169445#1 -41169445#0 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh42" type="passenger" depart="1175.25" departLane="best">
+        <route edges="193817182 193817181#0 193817181#1 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh43" type="passenger" depart="1203.24" departLane="best">
+        <route edges="-193817181#0 193817181#0 193817181#1 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh44" type="passenger" depart="1231.22" departLane="best">
+        <route edges="-176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh45" type="passenger" depart="1259.20" departLane="best">
+        <route edges="193817182 193817181#0 193817181#1 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh46" type="passenger" depart="1287.18" departLane="best">
+        <route edges="-145886211#5 -145886211#0 -193817181#1 -193817181#0 -193817182"/>
+    </vehicle>
+    <vehicle id="veh47" type="passenger" depart="1315.17" departLane="best">
+        <route edges="176086983#4 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh48" type="passenger" depart="1343.15" departLane="best">
+        <route edges="41169445#1 -41169445#1 -41169445#0 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh49" type="passenger" depart="1371.13" departLane="best">
+        <route edges="193817182 193817181#0 193817181#1 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh50" type="passenger" depart="1399.11" departLane="best">
+        <route edges="-41169445#3 -41169445#1 -41169445#0 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh51" type="passenger" depart="1427.09" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4"/>
+    </vehicle>
+    <vehicle id="veh52" type="passenger" depart="1455.08" departLane="best">
+        <route edges="-145886211#5 -145886211#0 -193817181#1 -193817181#0 -193817182"/>
+    </vehicle>
+    <vehicle id="veh53" type="passenger" depart="1483.06" departLane="best">
+        <route edges="41169445#0 -41169445#0 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh54" type="passenger" depart="1511.04" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 -193817181#1 -193817181#0 193817181#0"/>
+    </vehicle>
+    <vehicle id="veh55" type="passenger" depart="1539.02" departLane="best">
+        <route edges="-145886211#5 -145886211#0 41169445#0 41169445#1 41169445#2"/>
+    </vehicle>
+    <vehicle id="veh56" type="passenger" depart="1567.01" departLane="best">
+        <route edges="-145886211#5 -145886211#0 -176086983#4 -176086983#3"/>
+    </vehicle>
+    <vehicle id="veh57" type="passenger" depart="1594.99" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh58" type="passenger" depart="1622.97" departLane="best">
+        <route edges="-176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh59" type="passenger" depart="1650.95" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh60" type="passenger" depart="1678.93" departLane="best">
+        <route edges="-41169445#3 -41169445#1 -41169445#0 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh61" type="passenger" depart="1706.92" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 -193817181#1 -193817181#0 -193817182"/>
+    </vehicle>
+    <vehicle id="veh62" type="passenger" depart="1734.90" departLane="best">
+        <route edges="-145886211#5 -145886211#0 41169445#0 -41169445#0"/>
+    </vehicle>
+    <vehicle id="veh63" type="passenger" depart="1762.88" departLane="best">
+        <route edges="-145886211#5 -145886211#0 -176086983#4"/>
+    </vehicle>
+    <vehicle id="veh64" type="passenger" depart="1790.86" departLane="best">
+        <route edges="-41169445#3 -41169445#1 -41169445#0 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh65" type="passenger" depart="1818.85" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 41169445#0 41169445#1 41169445#2"/>
+    </vehicle>
+    <vehicle id="veh66" type="passenger" depart="1846.83" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 145886211#0 -145886211#0"/>
+    </vehicle>
+    <vehicle id="veh67" type="passenger" depart="1874.81" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 41169445#0 41169445#1 41169445#2"/>
+    </vehicle>
+    <vehicle id="veh68" type="passenger" depart="1902.79" departLane="best">
+        <route edges="-145886211#5 -145886211#0 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh69" type="passenger" depart="1930.78" departLane="best">
+        <route edges="-193817181#1 193817181#1 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh70" type="passenger" depart="1958.76" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 -193817181#1 -193817181#0"/>
+    </vehicle>
+    <vehicle id="veh71" type="passenger" depart="1986.74" departLane="best">
+        <route edges="193817182 193817181#0 193817181#1 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh72" type="passenger" depart="2014.72" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 -193817181#1 -193817181#0"/>
+    </vehicle>
+    <vehicle id="veh73" type="passenger" depart="2042.70" departLane="best">
+        <route edges="193817181#0 193817181#1 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh74" type="passenger" depart="2070.69" departLane="best">
+        <route edges="-145886211#5 -145886211#0 41169445#0 41169445#1 41169445#2"/>
+    </vehicle>
+    <vehicle id="veh75" type="passenger" depart="2098.67" departLane="best">
+        <route edges="193817182 193817181#0 193817181#1 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh76" type="passenger" depart="2126.65" departLane="best">
+        <route edges="193817182 193817181#0 193817181#1 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh77" type="passenger" depart="2154.63" departLane="best">
+        <route edges="-145886211#5 -145886211#0 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh78" type="passenger" depart="2182.62" departLane="best">
+        <route edges="-193817181#0 193817181#0 193817181#1 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh79" type="passenger" depart="2210.60" departLane="best">
+        <route edges="-41169445#3 -41169445#1 -41169445#0 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh80" type="passenger" depart="2238.58" departLane="best">
+        <route edges="-145886211#5 -145886211#0 41169445#0 41169445#1 41169445#2"/>
+    </vehicle>
+    <vehicle id="veh81" type="passenger" depart="2266.56" departLane="best">
+        <route edges="193817181#1 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh82" type="passenger" depart="2294.54" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 -193817181#1 -193817181#0 -193817182"/>
+    </vehicle>
+    <vehicle id="veh83" type="passenger" depart="2322.53" departLane="best">
+        <route edges="41169445#1 -41169445#1 -41169445#0 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh84" type="passenger" depart="2350.51" departLane="best">
+        <route edges="193817182 193817181#0 193817181#1 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh85" type="passenger" depart="2378.49" departLane="best">
+        <route edges="-145886211#5 -145886211#0 -193817181#1 -193817181#0 -193817182"/>
+    </vehicle>
+    <vehicle id="veh86" type="passenger" depart="2406.47" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 145886211#0"/>
+    </vehicle>
+    <vehicle id="veh87" type="passenger" depart="2434.46" departLane="best">
+        <route edges="-41169445#3 -41169445#1 -41169445#0 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh88" type="passenger" depart="2462.44" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4"/>
+    </vehicle>
+    <vehicle id="veh89" type="passenger" depart="2490.42" departLane="best">
+        <route edges="193817181#0 193817181#1 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh90" type="passenger" depart="2518.40" departLane="best">
+        <route edges="-41169445#3 -41169445#1 -41169445#0 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh91" type="passenger" depart="2546.38" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 -193817181#1 -193817181#0 -193817182"/>
+    </vehicle>
+    <vehicle id="veh92" type="passenger" depart="2574.37" departLane="best">
+        <route edges="-145886211#5 -145886211#0 -193817181#1 -193817181#0 -193817182"/>
+    </vehicle>
+    <vehicle id="veh93" type="passenger" depart="2602.35" departLane="best">
+        <route edges="193817182 193817181#0 193817181#1 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh94" type="passenger" depart="2630.33" departLane="best">
+        <route edges="-41169445#0 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh95" type="passenger" depart="2658.31" departLane="best">
+        <route edges="-41169445#3 -41169445#1 -41169445#0 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh96" type="passenger" depart="2686.30" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 41169445#0 -41169445#0"/>
+    </vehicle>
+    <vehicle id="veh97" type="passenger" depart="2714.28" departLane="best">
+        <route edges="193817182 193817181#0 193817181#1 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh98" type="passenger" depart="2742.26" departLane="best">
+        <route edges="-145886211#5 -145886211#0 145886211#0"/>
+    </vehicle>
+    <vehicle id="veh99" type="passenger" depart="2770.24" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 -193817181#1 -193817181#0 -193817182"/>
+    </vehicle>
+    <vehicle id="veh100" type="passenger" depart="2798.22" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 -176086983#4"/>
+    </vehicle>
+    <vehicle id="veh101" type="passenger" depart="2826.21" departLane="best">
+        <route edges="193817182 193817181#0 193817181#1 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh102" type="passenger" depart="2854.19" departLane="best">
+        <route edges="-41169445#3 -41169445#1 -41169445#0 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh103" type="passenger" depart="2882.17" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 145886211#0 -145886211#0"/>
+    </vehicle>
+    <vehicle id="veh104" type="passenger" depart="2910.15" departLane="best">
+        <route edges="-145886211#5 -145886211#0 -193817181#1 -193817181#0 -193817182"/>
+    </vehicle>
+    <vehicle id="veh105" type="passenger" depart="2938.14" departLane="best">
+        <route edges="-145886211#5 -145886211#0 41169445#0 41169445#1 41169445#2"/>
+    </vehicle>
+    <vehicle id="veh106" type="passenger" depart="2966.12" departLane="best">
+        <route edges="145886211#0 -145886211#0 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh107" type="passenger" depart="2994.10" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 41169445#0 41169445#1 41169445#2"/>
+    </vehicle>
+    <vehicle id="veh108" type="passenger" depart="3022.08" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 41169445#0 41169445#1 41169445#2"/>
+    </vehicle>
+    <vehicle id="veh109" type="passenger" depart="3050.06" departLane="best">
+        <route edges="193817182 193817181#0 193817181#1 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh110" type="passenger" depart="3078.05" departLane="best">
+        <route edges="193817182 193817181#0 193817181#1 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh111" type="passenger" depart="3106.03" departLane="best">
+        <route edges="-193817181#0 193817181#0 193817181#1 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh112" type="passenger" depart="3134.01" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 -193817181#1"/>
+    </vehicle>
+    <vehicle id="veh113" type="passenger" depart="3161.99" departLane="best">
+        <route edges="-145886211#5 -145886211#0 -193817181#1"/>
+    </vehicle>
+    <vehicle id="veh114" type="passenger" depart="3189.98" departLane="best">
+        <route edges="176086983#4 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh115" type="passenger" depart="3217.96" departLane="best">
+        <route edges="-41169445#3 -41169445#1 -41169445#0 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh116" type="passenger" depart="3245.94" departLane="best">
+        <route edges="176086983#0 176086983#3"/>
+    </vehicle>
+    <vehicle id="veh117" type="passenger" depart="3273.92" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh118" type="passenger" depart="3301.91" departLane="best">
+        <route edges="-41169445#3 -41169445#1 -41169445#0 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh119" type="passenger" depart="3329.89" departLane="best">
+        <route edges="-41169445#3 -41169445#1 -41169445#0 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh120" type="passenger" depart="3357.87" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 145886211#0 -145886211#0"/>
+    </vehicle>
+    <vehicle id="veh121" type="passenger" depart="3385.85" departLane="best">
+        <route edges="-41169445#3 -41169445#1 -41169445#0 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh122" type="passenger" depart="3413.83" departLane="best">
+        <route edges="-145886211#0 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh123" type="passenger" depart="3441.82" departLane="best">
+        <route edges="-145886211#5 -145886211#0 41169445#0 -41169445#0"/>
+    </vehicle>
+    <vehicle id="veh124" type="passenger" depart="3469.80" departLane="best">
+        <route edges="-145886211#5 -145886211#0 -193817181#1 -193817181#0 -193817182"/>
+    </vehicle>
+    <vehicle id="veh125" type="passenger" depart="3497.78" departLane="best">
+        <route edges="-193817181#0 193817181#0 193817181#1 -176086983#4 -176086983#3 -176086983#1"/>
+    </vehicle>
+    <vehicle id="veh126" type="passenger" depart="3525.76" departLane="best">
+        <route edges="-145886211#0 145886211#0 145886211#1"/>
+    </vehicle>
+    <vehicle id="veh127" type="passenger" depart="3553.75" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 -193817181#1 193817181#1"/>
+    </vehicle>
+    <vehicle id="veh128" type="passenger" depart="3581.73" departLane="best">
+        <route edges="176086983#0 176086983#3 176086983#4 -193817181#1 -193817181#0 193817181#0"/>
+    </vehicle>
+</routes>

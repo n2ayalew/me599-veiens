@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+	<copy file="osm.net.xml" />
+	<copy file="osm.passenger.trips.xml" />
+	<copy file="osm.poly.xml" />
+	<copy file="osm.view.xml" />
+	<copy file="osm.sumocfg" type="config" />
+</launch>
